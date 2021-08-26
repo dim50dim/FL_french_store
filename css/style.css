@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-header {
+  background-color: #F4F4F4;
+}
+
+.main {
+  background-color: #F4F4F4;
+}
+
+.navbar-items:hover {
+  color: #739626;
+}
+
+.arroy::after {
+  content: url("/logo-contact/arroy-big.svg");
+  margin-left: 10px;
+}
+
+.shadow {
+  background: #ffffff;
+  /* Цвет фона */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* Параметры тени */
+  padding: 10px;
+}
+
+.line::after {
+  content: url("/logo-contact/line.svg");
+  margin: 20px;
+}
+
+.line::before {
+  content: url("/logo-contact/line.svg");
+  margin: 20px;
+}
+
+.one, .two, .three:hover {
+  color: #73962C;
+}
+
+.display-wall-title {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+input[type=checkbox] {
+  width: 22px;
+  height: 22px;
+}
+
+/*# sourceMappingURL=style.css.map */
