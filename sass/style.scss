@@ -144,6 +144,10 @@ a {
        display: inline-block;
    }
    ///////////////main-content
+.search-main{
+  height: 50px;
+}
+  
   main {
       background-color: #E5E5E5;;
   }
@@ -162,4 +166,14 @@ a {
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+}
+//////////////footer
+.color-black{
+  background-color: #26282C;
+}
+.footer-title{
+  color:#ffffff
+}
+.footer-text-color{
+  color: #BDBDBE;
 }
