@@ -95,9 +95,14 @@ a {
   color: #739626;
 }
 
+.bascket {
+  margin-bottom: 20px;
+}
+
 .arroy::after {
   content: url("/logo-contact/arroy-big.svg");
   margin-left: 10px;
+  margin-top: 40px;
 }
 
 .shadow {
@@ -137,6 +142,14 @@ input[type=checkbox] {
 .sidebar {
   background-color: #ffffff;
   display: inline-block;
+}
+
+.sidebar-title {
+  color: #2268B4;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: 17px;
+  line-height: 22px;
 }
 
 .search-main {
@@ -190,6 +203,14 @@ main {
 
 .input::after {
   content: url("/logo-contact-footer/send_24px.svg");
+}
+
+.black-part {
+  background-color: #000000;
+}
+
+.black-part-right-text {
+  color: #BDBDBE;
 }
 
 /*# sourceMappingURL=style.css.map */

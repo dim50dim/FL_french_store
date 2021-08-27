@@ -108,9 +108,13 @@ a {
 .navbar-items:hover {
     color: #739626; 
 }
+.bascket{
+  margin-bottom: 20px;
+}
 .arroy::after{
     content: url('/logo-contact/arroy-big.svg');
     margin-left: 10px;
+    margin-top: 40px;
 }
 .shadow {
     background: #ffffff; /* Цвет фона */
@@ -143,6 +147,12 @@ a {
        background-color: #ffffff;
        display: inline-block;
    }
+  .sidebar-title{
+    color: #2268B4;
+       @include lato_normal;
+       font-style: 17px;
+       line-height: 22px;
+  }
    ///////////////main-content
 .search-main{
   height: 50px;
@@ -186,4 +196,12 @@ a {
 }
 .input::after{
   content : url('/logo-contact-footer/send_24px.svg');
+}
+////////////////
+.black-part {
+  background-color: #000000;
+}
+.black-part-right-text {
+     color: #BDBDBE;
+
 }
