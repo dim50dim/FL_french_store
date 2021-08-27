@@ -179,4 +179,17 @@ main {
   color: #BDBDBE;
 }
 
+.footer-main-part {
+  background-color: #26282C;
+}
+
+.input {
+  background-color: #26282C;
+  height: 45px;
+}
+
+.input::after {
+  content: url("/logo-contact-footer/send_24px.svg");
+}
+
 /*# sourceMappingURL=style.css.map */
